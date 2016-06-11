@@ -11,3 +11,5 @@ documents_feed = client.GetDocumentListFeed()
 for document_entry in documents_feed.entry:
   # Display the title of the document on the command line.
   print (document_entry.title.text)
+  
+  
